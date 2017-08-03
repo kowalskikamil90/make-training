@@ -6,15 +6,15 @@ SRCDIR = src
 BINDIR = bin
 OBJ = app.o helper.o shell_cmd_caller.o
 OBJS := $(addprefix $(BINDIR)/, $(OBJ))
-OUTPUT_BIN = $(BINDIR)/app
+OUTPUT_BIN = app
 
 # Complier flags
 LINK_FLAGS = -o
 COMPILE_FLAGS = -c -o
 GCC_COMPILER = gcc
 
-$(OUTPUT_BIN) : $(OBJS)
-	$(GCC_COMPILER) $(LINK_FLAGS) $(OUTPUT_BIN) $(OBJS)
+$(BINDIR)/$(OUTPUT_BIN) : $(OBJS)
+	$(GCC_COMPILER) $(LINK_FLAGS) $(BINDIR)/$(OUTPUT_BIN) $(OBJS)
 
 $(BINDIR)/app.o : $(SRCDIR)/app.c
 	$(GCC_COMPILER) $(COMPILE_FLAGS) $(BINDIR)/app.o $(SRCDIR)/app.c
@@ -27,4 +27,4 @@ $(BINDIR)/shell_cmd_caller.o : $(SRCDIR)/shell_cmd_caller.c $(SRCDIR)/shell_cmd_
 
 .PHONY : clean
 clean :
-	cd $(BINDIR) && rm *
+	cd $(BINDIR) && rm *.o && rm $(OUTPUT_BIN)

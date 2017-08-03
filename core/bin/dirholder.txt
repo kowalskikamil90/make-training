@@ -1,0 +1,2 @@
+This file must be here in order to keep "bin" directory tracked by git repository.
+It is not possible to add empty directory to the index.
