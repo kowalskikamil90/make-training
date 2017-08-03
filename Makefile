@@ -1,8 +1,8 @@
-# To build application just run: "make"
+# To build the application just run: "make"
 
 # To clean the application run: "make clean"
 
-SRCDIR = src
+SRCDIR = core/src
 OBJ := app.o helper.o
 LINK_FLAGS = -o
 COMPILE_FLAGS = -c -o
