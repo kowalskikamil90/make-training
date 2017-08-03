@@ -1,10 +1,5 @@
-# test_repo
-This is my first GitHub repositiry. Just to test how GitHub operates.
+# make_training
 
-#This is gonna be my very first commit on GitHub (apart from the initial one).
-
-#This is a second commit. This time from the remote machine, not from gitHub web interface.
-
-#Third commit, with correct mail address.
-
-#Third prim.
+This repository was set up in order to gain experience with GNU make.
+I'm going to practice Makefiles with regards to automating building/cleaning processes.
+I will use some very basic "C" program to feed the make
