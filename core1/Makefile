@@ -36,5 +36,5 @@ $(OBJDIR)/%.o : $(SRCDIR)/%.cpp $(INCSP)
 
 .PHONY : clean
 clean :
-	rm -Rf $(OBJDIR)/*
+	rm $(OBJDIR)/*.o $(OBJDIR)/$(EXECUTABLE)
 
