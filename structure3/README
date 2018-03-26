@@ -1,0 +1,21 @@
+The directory structure of this particular project is:
+├── build
+│   ├── executable
+├── Makefile
+├── module1
+│   ├── build
+│   │   └── README
+│   ├── includes
+│   │   └── *.h
+│   ├── Makefile
+│   └── src
+│       └── *.cpp
+├── module2
+│   ├── build
+│   │   └── README
+│   ├── includes
+│   │   └── *.h
+│   ├── Makefile
+│   └── src
+│       └── *.cpp
+└── README
