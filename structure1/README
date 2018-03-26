@@ -1,0 +1,9 @@
+The directory structure of this particular project is:
+|
+|-bin/
+|
+|-src/
+|    |-*cpp
+|    |-*h
+|
+|-Makefile

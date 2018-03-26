@@ -9,7 +9,7 @@ int main (int argc, char * argv[])
 
 printf("This is a testing project\n");
 
-call_shell_cmd("ls -la /home/mint/github/make_training/");
+call_shell_cmd("ls -la ./../../../");
 
 printer();
 
