@@ -20,4 +20,4 @@ The directory structure of this particular project is:
 │       └── *.cpp
 └── README
 
-The top level Makefile calls recursively lover lever Makefiles in order to clean/build the application binaries.
+The top level Makefile calls recursively lower level Makefiles in order to clean/build the application binaries.
