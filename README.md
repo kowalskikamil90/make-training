@@ -1,5 +1,4 @@
 # make_training
 
-This repository was set up in order to gain experience with GNU make.
-I'm going to practice Makefiles with regards to automating building/cleaning processes.
-I will use some very basic "C" program to feed the make
+This repository was started in order to practice GNU make and basic buildsystem skills. You can find here few popular directory structure commonly used in projects, as well as GNU make-based buildsystem for them.
+Some dummy C/C++ programs are used to feed the make.
